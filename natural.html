@@ -17,63 +17,135 @@
 
     <div class="container inner" style="color: white;">
       <div class=" row thumbnails">
-              <div class="col-md-2-offset-2 box">
-                <a href="#" class="image fit"><img src="images/img_2.jpg" alt="" /></a>
+
+          <div class="col-md-2-offset-2 box">
+            <a href="#lightbox" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/img_2.jpg"></a>
                 <div class="inner">
                   <h3>Nascetur nunc varius commodo</h3>
                   <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="#" class="button fit" data-poptrox="youtube,800x400">See more...</a>
+                  <a href="#lightbox" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+                    <div class="modal fade and carousel slide" id="lightbox">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            <ol class="carousel-indicators">
+                              <li data-target="#lightbox" data-slide-to="0" class="active"></li>
+                              <li data-target="#lightbox" data-slide-to="1"></li>
+                              <li data-target="#lightbox" data-slide-to="2"></li>
+                           </ol>
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <img src="images/banner.jpg" alt="First slide">
+                            </div>
+                          <div class="item">
+                              <img src="images/banner.jpg" alt="Second slide">
+                          </div>
+                          <div class="item">
+                            <img src="images/banner.jpg" alt="Third slide">
+                          <div class="carousel-caption"><p>even with captions...</p></div>
+                          </div>
+                          </div><!-- /.carousel-inner -->
+          <!-- control -->
+                        <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                        </div><!--class modal-body -->
+                      </div><!--class modal-content -->
+                    </div><!--class modal-dialog -->
+                  </div><!--class modal -->
                 </div>
               </div> <!-- class box -->
 
               <div class="col-md-2-offset-2 box">
-                <a href="#" class="image fit"><img src="images/img_2.jpg" alt="" /></a>
+                <a href="#" class="image fit"><img src="images/img_2.jpg"></a>
                 <div class="inner">
                   <h3>Nascetur nunc varius commodo</h3>
                   <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="#" class="button fit" data-poptrox="youtube,800x400">See more...</a>
+                  <a href="#" class="button fit">See more...</a>
                 </div>
               </div> <!-- class box -->
 
               <div class="col-md-2-offset-2 box">
-                <a href="#" class="image fit"><img src="images/img_2.jpg" alt="" /></a>
+                <a href="#" class="image fit"><img src="images/img_2.jpg"></a>
                 <div class="inner">
                   <h3>Nascetur nunc varius commodo</h3>
                   <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="#" class="button fit" data-poptrox="youtube,800x400">See more...</a>
+                  <a href="#" class="button fit">See more...</a>
                 </div>
               </div> <!-- class box -->
 
               <div class="col-md-2-offset-2 box">
-                <a href="#" class="image fit"><img src="images/img_2.jpg" alt="" /></a>
+                <a href="#" class="image fit"><img src="images/img_2.jpg"></a>
                 <div class="inner">
                   <h3>Nascetur nunc varius commodo</h3>
                   <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="#" class="button fit" data-poptrox="youtube,800x400">See more...</a>
+                  <a href="#" class="button fit">See more...</a>
                 </div>
               </div> <!-- class box -->
 
               <div class="col-md-2-offset-2 box">
-                <a href="#" class="image fit"><img src="images/img_2.jpg" alt="" /></a>
+                <a href="#" class="image fit"><img src="images/img_2.jpg"></a>
                 <div class="inner">
                   <h3>Nascetur nunc varius commodo</h3>
                   <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="#" class="button fit" data-poptrox="youtube,800x400">See more...</a>
+                  <a href="#" class="button fit">See more...</a>
                 </div>
               </div> <!-- class box -->
 
               <div class="col-md-2-offset-2 box">
-                <a href="#" class="image fit"><img src="images/img_2.jpg" alt="" /></a>
+                <a href="#" class="image fit"><img src="images/img_2.jpg"></a>
                 <div class="inner">
                   <h3>Nascetur nunc varius commodo</h3>
                   <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="#" class="button fit" data-poptrox="youtube,800x400">See more...</a>
+                  <a href="#" class="button fit">See more...</a>
                 </div>
               </div> <!-- class box -->
 
         </div> <!-- class thumbnails -->
     </div> <!-- class inner -->
   </div> <!-- id main -->
+
+
+
+
+<div class="container">
+<a href="#lightbox" data-toggle="modal" data-slide-to="0">slide</a></li>
+  <div class="modal fade and carousel slide" id="lightbox">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <ol class="carousel-indicators">
+            <li data-target="#lightbox" data-slide-to="0" class="active"></li>
+            <li data-target="#lightbox" data-slide-to="1"></li>
+            <li data-target="#lightbox" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/banner.jpg" alt="First slide">
+            </div>
+            <div class="item">
+              <img src="images/banner.jpg" alt="Second slide">
+            </div>
+            <div class="item">
+              <img src="images/banner.jpg" alt="Third slide">
+              <div class="carousel-caption"><p>even with captions...</p></div>
+            </div>
+          </div><!-- /.carousel-inner -->
+          <!-- control -->
+          <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div><!--class modal-body -->
+      </div><!--class modal-content -->
+    </div><!--class modal-dialog -->
+  </div><!--class modal -->
+</div><!-- /.container -->
 <script src="myjava.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>

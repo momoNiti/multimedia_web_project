@@ -258,3 +258,6 @@ body{
     border-radius: 50%;
     border-color: #e0e0eb #202024;
 }
+.modal.and.carousel {
+  position: fixed;
+}
