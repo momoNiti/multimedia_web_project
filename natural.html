@@ -12,127 +12,556 @@
   <div id="main">
 
   	<div class="col-md-1-offset-11 back">
-  	<button class="button" id="button1" onclick="goBack()">Back</button>
-		<script>
-			function goBack() {
-    			window.history.back();
-			}
-		</script>
-  	</div> <!-- class back -->
+     <button class="button" id="button1" onclick="goBack()">Back</button>
+     <script>
+       function goBack() {
+         window.history.back();
+       }
+     </script>
+   </div> <!-- class back -->
 
-    <div class="container inner" style="color: white;">
-      <div class=" row thumbnails">
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/วาวี.jpg" alt="ดอยวาวี" width="500" height="300px"/></a>
-                <div class="inner">
-                  <h3>ดอยวาวี</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+   <div class="container inner" style="color: white;">
+    <div class=" row thumbnails">
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/ดอยแม่สลอง.jpg" alt="ดอยแม่สลอง" width="500" height="300px"/></a>
-                <div class="inner">
-                  <h3>ดอยแม่สลอง</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop1" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/วาวี.jpg" alt="ดอยวาวี"></a>
+        <div class="inner">
+          <h3>ดอยวาวี</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop1" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop1" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop1" data-slide-to="1"></li>
+                    <li data-target="#pop1" data-slide-to="2"></li>
+                    <li data-target="#pop1" data-slide-to="3"></li>
+                    <li data-target="#pop1" data-slide-to="4"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>hwllo</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Fourth slide">
+                      <div class="carousel-caption" style="top: 30px; bottom: 0;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/img_2.jpg" alt="Fifth slide">
+                      <div class="carousel-caption" style="top: 30px; bottom: 0;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop1" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop1" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/ดอยผาตั้ง.jpg" alt="ดอยผาตั้ง"  width="500" height="300px" /></a>
-                <div class="inner">
-                  <h3>ดอยผาตั้ง</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop2" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/ดอยแม่สลอง.jpg" alt="ดอยแม่สลอง"></a>
+        <div class="inner">
+          <h3>ดอยแม่สลอง</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop2" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop2">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop2" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop2" data-slide-to="1"></li>
+                    <li data-target="#pop2" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop2" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop2" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/ดอยตุง.jpg" alt="ดอยตุง" width="500" height="300px"/></a>
-                <div class="inner">
-                  <h3>ดอยตุง</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop3" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/ดอยผาตั้ง.jpg" alt="ดอยผาตั้ง"></a>
+        <div class="inner">
+          <h3>ดอยผาตั้ง</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop3" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop3">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop3" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop3" data-slide-to="1"></li>
+                    <li data-target="#pop3" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop3" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop3" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/ภูชี้ฟ้า.jpg" alt="ภูชี้ฟ้า" width="500" height="300px" /></a>
-                <div class="inner">
-                  <h3>ภูชี้ฟ้า</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop4" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/ดอยตุง.jpg" alt="ดอยตุง"></a>
+        <div class="inner">
+          <h3>ดอยตุง</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop4" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop4">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop4" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop4" data-slide-to="1"></li>
+                    <li data-target="#pop4" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop4" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop4" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/ภูชี้ดาว.jpg" alt="ภูชี้ดาว" width="500" height="300px"/></a>
-                <div class="inner">
-                  <h3>ภูชี้ดาว</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop5" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/ภูชี้ฟ้า.jpg" alt="ภูชี้ฟ้า"></a>
+        <div class="inner">
+          <h3>ภูชี้ฟ้า</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop5" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop5">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop5" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop5" data-slide-to="1"></li>
+                    <li data-target="#pop5" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop5" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop5" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/ภูฟ้าไทย.jpg" alt="ภูฟ้าไทย" width="500" height="300px"/></a>
-                <div class="inner">
-                  <h3>ภูฟ้าไทย</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop6" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/ภูชี้ดาว.jpg" alt="ภูชี้ดาว"></a>
+        <div class="inner">
+          <h3>ภูชี้ดาว</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop7" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop6">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop6" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop6" data-slide-to="1"></li>
+                    <li data-target="#pop6" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop6" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop6" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/ไร่ชาฉุยฟง.jpg" alt="ไร่ชาฉุยฟง" width="500" height="300px" /></a>
-                <div class="inner">
-                  <h3>ไร่ชาฉุยฟง</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop7" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/ภูฟ้าไทย.jpg" alt="ภูฟ้าไทย"></a>
+        <div class="inner">
+          <h3>ภูฟ้าไทย</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop4" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop7">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop7" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop7" data-slide-to="1"></li>
+                    <li data-target="#pop7" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop7" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop7" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/ไร่บุญรอด.jpg" alt="ไร่บุญรอด" width="500" height="300px" /></a>
-                <div class="inner">
-                  <h3>ไร่บุญรอด</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop8" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/ไร่ชาฉุยฟง.jpg" alt="ไร่ชาฉุยฟง"></a>
+        <div class="inner">
+          <h3>ไร่ชาฉุยฟง</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop8" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop8">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop8" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop8" data-slide-to="1"></li>
+                    <li data-target="#pop8" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop8" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop8" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/สามเหลี่ยมทองคำ.jpg" alt="สามเหลี่ยมทองคำ" width="500" height="300px" /></a>
-                <div class="inner">
-                  <h3>สามเหลี่ยมทองคำ</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop9" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/ไร่บุญรอด.jpg" alt="ไร่บุญรอด"></a>
+        <div class="inner">
+          <h3>ไร่บุญรอด</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop9" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop9">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop9" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop9" data-slide-to="1"></li>
+                    <li data-target="#pop9" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop9" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop9" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/ถ้ำปุ่ม.jpg" alt="ถ้ำปุ่ม" width="500" height="300px"/></a>
-                <div class="inner">
-                  <h3>ถ้ำปุ่ม ถ้ำปลา ถ้ำเสาหินพญานาค</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop10" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/สามเหลี่ยมทองคำ.jpg" alt="สามเหลี่ยมทองคำ"></a>
+        <div class="inner">
+          <h3>สามเหลี่ยมทองคำ</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop10" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop10">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop10" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop10" data-slide-to="1"></li>
+                    <li data-target="#pop10" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop10" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop10" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-              <div class="col-md-2-offset-2 box">
-                <a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/ล่องแม่น้ำกก.jpg" alt="ล่องแม่น้ำกก" width="500" height="300px"/></a>
-                <div class="inner">
-                  <h3>ล่องแม่น้ำกก</h3>
-                  <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                  <a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">See more...</a>
-                </div>
-              </div> <!-- class box -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop11" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/ถ้ำปุ่ม.jpg" alt="ถ้ำปุ่ม"></a>
+        <div class="inner">
+          <h3>ถ้ำปุ่ม ถ้ำปลา ถ้ำเสาหินพญานาค</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop11" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop11">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop11" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop11" data-slide-to="1"></li>
+                    <li data-target="#pop11" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop11" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop11" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
 
-        </div> <!-- class thumbnails -->
-    </div> <!-- class inner -->
-  </div> <!-- id main -->
+      <div class="col-md-2-offset-2 box">
+        <a href="#pop12" class="image fit" data-toggle="modal" data-slide-to="0"><img src="images/ล่องแม่น้ำกก.jpg" alt="ล่องแม่น้ำกก"></a>
+        <div class="inner">
+          <h3>ล่องแม่น้ำกก</h3>
+          <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+          <a href="#pop12" class="button fit" data-toggle="modal" data-slide-to="0">See more...</a>
+          <div class="modal fade and carousel slide" id="pop12">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <ol class="carousel-indicators">
+                    <li data-target="#pop12" data-slide-to="0" class="active"></li>
+                    <li data-target="#pop12" data-slide-to="1"></li>
+                    <li data-target="#pop12" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/banner.jpg" alt="First slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Second slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                    <div class="item">
+                      <img src="images/banner.jpg" alt="Third slide">
+                      <div class="carousel-caption"><p>captions...</p></div>
+                    </div>
+                  </div><!-- /.carousel-inner -->
+                  <!-- control -->
+                  <a class="left carousel-control" href="#pop12" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#pop12" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div><!--class modal-body -->
+              </div><!--class modal-content -->
+            </div><!--class modal-dialog -->
+          </div><!--class modal -->
+        </div> <!-- class inner -->
+      </div> <!-- class box -->
+
+    </div> <!-- class thumbnails -->
+  </div> <!-- class inner -->
+</div> <!-- id main -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
