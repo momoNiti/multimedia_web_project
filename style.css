@@ -1,3 +1,7 @@
+@font-face {
+    font-family: myfont;
+    src: url(font/ttf/Arabica.ttf);
+}
 html, body{
     margin: 0;
     padding: 0;
@@ -12,11 +16,11 @@ header, section{
 }
 
 body{
+    font-family: myfont;
     line-height: 1;
     -webkit-text-size-adjust: none;
     background: #202024;
 }
-
 
 
 #banner{
@@ -24,7 +28,7 @@ body{
     display: flex;
     justify-content: center;
     padding: 8em 4em 6em 4em;
-    min-height: 70vh;
+    min-height: 100vh;
     background-image: url("images/banner.jpg");
     background-position: center;
     background-size: cover;
@@ -118,7 +122,7 @@ body{
     z-index: 1;
 }
 #main{
-    padding: 4em 0 2em 0;
+    padding: 8em 0 2em 0;
 }
 
 #main .inner {
@@ -277,4 +281,7 @@ body{
     padding: 4px;
     padding-left: 1px;
     padding-right: 1px;
+}
+section:nth-child(2){
+    height: 100vh;
 }
