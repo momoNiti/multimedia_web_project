@@ -285,3 +285,8 @@ body{
 section:nth-child(2){
     height: 100vh;
 }
+footer{
+    display: block;
+    color: #e0e0eb;
+    text-align: center;
+}
