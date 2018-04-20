@@ -213,7 +213,7 @@ body{
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
-    width: 100%;
+    width: 80%;
 }
 .button:hover {
     background-color: #fff;
@@ -289,4 +289,8 @@ footer{
     display: block;
     color: #e0e0eb;
     text-align: center;
+}
+.inner p{
+    padding-right: -15px;
+    padding: -15px;
 }
