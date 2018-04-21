@@ -21,6 +21,9 @@ body{
     -webkit-text-size-adjust: none;
     background: #202024;
 }
+h1, h2, h3, h4, p{
+    color: #e0e0eb;
+}
 
 
 #banner{
@@ -122,7 +125,7 @@ body{
     z-index: 1;
 }
 #main{
-    padding: 8em 0 2em 0;
+   padding-top: 3em;
 }
 
 #main .inner {
@@ -201,7 +204,7 @@ body{
 .button {
     appearance: none;
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, font-weight 0.6s ease-in-out;
-    background-color: #ab91d7;
+/*    background-color: #ab91d7;*/
     border-radius: 4px;
     border: 0;
     color: #fff;
@@ -214,6 +217,15 @@ body{
     text-decoration: none;
     white-space: nowrap;
     width: 80%;
+}
+.c1{
+    background-color:  #ff66ff;
+}
+.c2{
+    background-color: #6699ff;
+}
+.c3{
+    background-color: #ff6699;
 }
 .button:hover {
     background-color: #fff;
@@ -285,12 +297,16 @@ body{
 section:nth-child(2){
     height: 100vh;
 }
-footer{
+footer>h1{
     display: block;
     color: #e0e0eb;
     text-align: center;
 }
-.inner p{
-    padding-right: -15px;
-    padding: -15px;
+.inner > p{
+    padding-right: 15px;
+    padding: 15px;
+}
+
+hr{
+    margin-top: 10px;
 }
