@@ -282,7 +282,7 @@ h1, h2, h3, h4, p{
     border-style: solid;
     border-radius: 50%;
     border-color: #202024 #e0e0eb;
-    transition:border-color 0.5s ease-out;
+    transition:border-color 1s ease-out;
 }
 #scrolldown:hover{
     border-style: solid;
