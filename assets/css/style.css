@@ -2,6 +2,14 @@
     font-family: myfont;
     src: url(../font/ttf/Arabica.ttf);
 }
+@font-face {
+    font-family: describe_font;
+    src: url(../font/otf/Quark-Light.otf);
+}
+@font-face {
+    font-family: describe_font_b;
+    src: url(../font/otf/Quark-Bold.otf);
+}
 html, body{
     margin: 0;
     padding: 0;
@@ -202,6 +210,8 @@ h1, h2, h3, h4, p{
 
 
 .button {
+    font-family: describe_font_b;
+    font-size: 1.2em;
     appearance: none;
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, font-weight 0.6s ease-in-out;
 /*    background-color: #ab91d7;*/
@@ -297,6 +307,7 @@ footer>h1{
     text-align: center;
 }
 .inner > p{
+    font-family: describe_font;
     padding-right: 15px;
     padding: 15px;
 }
