@@ -240,10 +240,12 @@ h1, h2, h3, h4, p{
 }
 #button1{
     background-color: #202024;
-    color: #e0e0eb;
-    font-weight: bold;
+    /*color: #e0e0eb;
+    font-weight: bold;*/
     width: 80px;
     height: 80px;
+/*    background: url(images/arrow_back.svg) no-repeat center;
+    background-size: 60px 60px;*/
 }
 #button1:hover{
     background-color: #e0e0eb;
@@ -309,4 +311,12 @@ footer>h1{
 
 hr{
     margin-top: 10px;
+}
+#mylogo{
+     position: absolute;
+     top: 15px;
+     left: 15px;
+     border: 0;
+     height:250px;
+     width: 250px;
 }
