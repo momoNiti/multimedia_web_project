@@ -4,16 +4,19 @@
   <title>เชียงราย</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="shortcut icon" href="images/logo.jpg"/>
 
 </head>
 <body>
   <section id="banner">
     <video autoplay muted loop>
-      <source src="../videomulti/chiang-rai.mp4" type="video/mp4">
+      <source src="../videomulti/edited_video.mp4" type="video/mp4">
       </video>
+      <div>
+        <img id="mylogo" src="images/logo_group.svg" style=" position: absolute; top: 15px; left: 15px; border: 0; height:250px; width: 250px;" />
+      </div>
       <div class="inner">
         <div class="container">
           <div class="row">
@@ -28,13 +31,13 @@
             </header>
           </div> <!-- class row -->
         </div> <!-- class container -->
-        <button id="scrolldown" type="button" onclick="scrolldown()">more</button>
+        <button id="scrolldown" type="button" onclick="scrolldown()" style="background: url(images/arrow.svg) no-repeat center; background-size: 85% 85%;"></button>
       </div> <!-- class inner -->
     </section>
     <section> <!-- section 2 -->
       <div id="main">
         <div style="text-align: center;">
-          <h1>category</h1><br><br><br>
+          <h1>Category</h1><br><br><br>
         </div>
         <div class="container inner"">
           <div class=" row thumbnails">
@@ -83,8 +86,8 @@
         </div> <!-- class row -->
       </div> <!-- class container -->
     </footer>
-    <script src="myjava.js"></script>
+    <script src="assets/java/myjava.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
   </html>
