@@ -217,7 +217,7 @@ h1, h2, h3, h4, p{
 /*    background-color: #ab91d7;*/
     border-radius: 4px;
     border: 0;
-    color: #fff;
+    /*color: #fff;*/
     display: inline-block;
     font-weight: 400;
     height: 2.85em;
@@ -229,13 +229,16 @@ h1, h2, h3, h4, p{
     width: 80%;
 }
 .c1{
-    background-color:  #ff66ff;
+    background-color: #e0f7ff;
+    color: #595959;
 }
 .c2{
-    background-color: #6699ff;
+    background-color: #fff0e0;
+    color: #595959;
 }
 .c3{
-    background-color: #ff6699;
+    background-color: #ffe0f7;
+    color: #595959;
 }
 .button:hover {
     background-color: #fff;
