@@ -133,7 +133,7 @@ h1, h2, h3, h4, p{
     z-index: 1;
 }
 #main{
-   padding-top: 3em;
+ padding-top: 3em;
 }
 
 #main .inner {
@@ -165,9 +165,9 @@ h1, h2, h3, h4, p{
 
 @media screen and (max-width: 736px) {
     .thumbnails .box {
-       width: 100%;
-   }
-   #button1{
+     width: 100%;
+ }
+ #button1{
     padding-left: 1px;
     padding-right: 1px;
 }
@@ -214,7 +214,7 @@ h1, h2, h3, h4, p{
     font-size: 1.2em;
     appearance: none;
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, font-weight 0.6s ease-in-out;
-/*    background-color: #ab91d7;*/
+    /*    background-color: #ab91d7;*/
     border-radius: 4px;
     border: 0;
     /*color: #fff;*/
@@ -319,12 +319,12 @@ hr{
     margin-top: 10px;
 }
 #mylogo{
-     position: absolute;
-     top: 15px;
-     left: 15px;
-     border: 0;
-     height:250px;
-     width: 250px;
+   position: absolute;
+   top: 15px;
+   left: 15px;
+   border: 0;
+   height:250px;
+   width: 250px;
 }
 .shop{
     background-color: rgb(217, 217, 217);
