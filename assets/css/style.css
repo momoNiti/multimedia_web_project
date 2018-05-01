@@ -313,6 +313,7 @@ footer>h1{
     font-family: describe_font;
     padding-right: 15px;
     padding: 15px;
+    font-size: 19px;
 }
 
 hr{
@@ -342,7 +343,9 @@ hr{
     color: #202024;
 }
 .left_col>p{
+    font-family: describe_font;
     color: #202024;
+    font-size: 23px;
 }
 
 
@@ -356,7 +359,9 @@ hr{
     color: #202024;
 }
 .right_col>p{
+    font-family: describe_font;
     color: #202024;
+    font-size: 23px;
 }
 .shopimg{
     width: 100%;
