@@ -326,3 +326,8 @@ hr{
      height:250px;
      width: 250px;
 }
+.shop{
+    border: 1px solid;
+    height: auto;
+    border-color: #666666;
+}
