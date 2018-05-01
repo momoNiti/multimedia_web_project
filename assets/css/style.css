@@ -335,6 +335,7 @@ hr{
 .left_col{
     overflow: hidden;
     padding-top: 25px;
+    width: 50%;
 }
 .left_col>h2{
     color: #202024;
@@ -343,13 +344,18 @@ hr{
     color: #202024;
 }
 
+
 .right_col{
     overflow: hidden;
     padding-top: 25px;
+    width: 50%;
 }
 .right_col>h2{
     color: #202024;
 }
 .right_col>p{
     color: #202024;
+}
+.shopimg{
+    width: 100%;
 }
