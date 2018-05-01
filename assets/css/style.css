@@ -326,3 +326,8 @@ hr{
      height:250px;
      width: 250px;
 }
+.shop{
+    background-color: rgb(217, 217, 217);
+    height: auto;
+    width: 100%;
+}
