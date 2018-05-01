@@ -336,6 +336,7 @@ hr{
     overflow: hidden;
     padding-top: 25px;
     width: 50%;
+    padding-bottom: 25px;
 }
 .left_col>h2{
     color: #202024;
@@ -349,6 +350,7 @@ hr{
     overflow: hidden;
     padding-top: 25px;
     width: 50%;
+    padding-bottom: 25px;
 }
 .right_col>h2{
     color: #202024;
