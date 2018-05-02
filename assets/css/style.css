@@ -304,7 +304,15 @@ h1, h2, h3, h4, p{
 section#fullsec:nth-child(2){
     height: 100vh;
 }
+section#fullsec:nth-child(3){
+    height: 100vh;
+}
+section#fullsec:nth-child(3)>h1{
+    text-align: center;
+    padding-top: 3em;
+}
 footer>h1{
+    padding-top: 3em;
     display: block;
     color: #e0e0eb;
     text-align: center;
