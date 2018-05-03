@@ -10,6 +10,12 @@
     font-family: describe_font_b;
     src: url(../font/otf/Quark-Bold.otf);
 }
+.carousel-caption{
+    font-size: 18px;
+}
+.carousel-caption>p{
+    color: black;
+}
 html, body{
     margin: 0;
     padding: 0;
